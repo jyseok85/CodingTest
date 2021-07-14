@@ -22,6 +22,14 @@ namespace CodingTest
 
         }
 
-       
+        private void 전화번호목록_Click(object sender, EventArgs e)
+        {
+            전화번호목록 button = new 전화번호목록();
+        }
+
+        private void 입국심사_Click(object sender, EventArgs e)
+        {
+            입국심사 button = new 입국심사();
+        }
     }
 }

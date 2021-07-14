@@ -30,6 +30,8 @@ namespace CodingTest
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.전화번호목록 = new System.Windows.Forms.Button();
+            this.입국심사 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -42,11 +44,33 @@ namespace CodingTest
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // 전화번호목록
+            // 
+            this.전화번호목록.Location = new System.Drawing.Point(93, 12);
+            this.전화번호목록.Name = "전화번호목록";
+            this.전화번호목록.Size = new System.Drawing.Size(75, 23);
+            this.전화번호목록.TabIndex = 1;
+            this.전화번호목록.Text = "전화번호목록";
+            this.전화번호목록.UseVisualStyleBackColor = true;
+            this.전화번호목록.Click += new System.EventHandler(this.전화번호목록_Click);
+            // 
+            // 입국심사
+            // 
+            this.입국심사.Location = new System.Drawing.Point(174, 12);
+            this.입국심사.Name = "입국심사";
+            this.입국심사.Size = new System.Drawing.Size(75, 23);
+            this.입국심사.TabIndex = 2;
+            this.입국심사.Text = "입국심사";
+            this.입국심사.UseVisualStyleBackColor = true;
+            this.입국심사.Click += new System.EventHandler(this.입국심사_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(408, 213);
+            this.Controls.Add(this.입국심사);
+            this.Controls.Add(this.전화번호목록);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +81,8 @@ namespace CodingTest
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button 전화번호목록;
+        private System.Windows.Forms.Button 입국심사;
     }
 }
 
