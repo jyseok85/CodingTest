@@ -6,4 +6,11 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="깊이너비우선탐색\" />
+    <Folder Include="스택큐\" />
+    <Folder Include="동적계획법\" />
+    <Folder Include="힙\" />
+  </ItemGroup>
+
 </Project>
