@@ -74,10 +74,6 @@ namespace CodingTest
 
         }
 
-        private void 체육복_Click(object sender, EventArgs e)
-        {
-            체육복 button = new 체육복();
 
-        }
     }
 }
