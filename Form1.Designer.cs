@@ -73,6 +73,7 @@ namespace CodingTest
             this.Controls.Add(this.전화번호목록);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 
