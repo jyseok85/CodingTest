@@ -31,5 +31,11 @@ namespace CodingTest
         {
             입국심사 button = new 입국심사();
         }
+
+        private void 체육복_Click(object sender, EventArgs e)
+        {
+            체육복 button = new 체육복();
+
+        }
     }
 }

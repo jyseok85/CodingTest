@@ -32,6 +32,7 @@ namespace CodingTest
             this.button1 = new System.Windows.Forms.Button();
             this.전화번호목록 = new System.Windows.Forms.Button();
             this.입국심사 = new System.Windows.Forms.Button();
+            this.체육복 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -64,11 +65,22 @@ namespace CodingTest
             this.입국심사.UseVisualStyleBackColor = true;
             this.입국심사.Click += new System.EventHandler(this.입국심사_Click);
             // 
+            // 체육복
+            // 
+            this.체육복.Location = new System.Drawing.Point(255, 12);
+            this.체육복.Name = "체육복";
+            this.체육복.Size = new System.Drawing.Size(75, 23);
+            this.체육복.TabIndex = 3;
+            this.체육복.Text = "체육복";
+            this.체육복.UseVisualStyleBackColor = true;
+            this.체육복.Click += new System.EventHandler(this.체육복_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(408, 213);
+            this.Controls.Add(this.체육복);
             this.Controls.Add(this.입국심사);
             this.Controls.Add(this.전화번호목록);
             this.Controls.Add(this.button1);
@@ -84,6 +96,7 @@ namespace CodingTest
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button 전화번호목록;
         private System.Windows.Forms.Button 입국심사;
+        private System.Windows.Forms.Button 체육복;
     }
 }
 
