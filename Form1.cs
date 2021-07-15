@@ -67,5 +67,11 @@ namespace CodingTest
             가장먼노드 button = new 가장먼노드();
 
         }
+
+        private void 가장큰수_Click(object sender, EventArgs e)
+        {
+            가장큰수 button = new 가장큰수();
+
+        }
     }
 }
